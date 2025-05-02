@@ -1,0 +1,47 @@
+body {
+  background: #141414;
+  color: #ffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h4 {
+  color: #bcdb4f;
+}
+
+.profissao {
+  color: #b3adad;
+  margin: 10px 0;
+}
+
+.todos {
+  background: #1f1f1f;
+  text-align: center;
+  /* margin: 100px 100px; */
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+.redes {
+  background: #333333;
+  padding: 8px;
+  margin: 20px;
+  border-radius: 9px;
+}
+
+a {
+  text-decoration: none;
+  color: #ece8e8;
+}
+
+#matheus {
+  max-width: 40%;
+  border-radius: 50%;
+}
