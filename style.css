@@ -29,13 +29,6 @@ h4 {
   box-sizing: border-box;
 }
 
-.redes {
-  background: #333333;
-  padding: 8px;
-  margin: 20px;
-  border-radius: 9px;
-}
-
 a {
   text-decoration: none;
   color: #ece8e8;
@@ -44,4 +37,40 @@ a {
 #matheus {
   max-width: 40%;
   border-radius: 50%;
+}
+
+.insta {
+  background: linear-gradient(90deg,rgba(120, 14, 245, 1) 0%, rgba(247, 0, 171, 1) 50%, rgba(240, 162, 36, 1) 97%);
+  padding: 8px;
+  margin: 20px;
+  border-radius: 9px;
+}
+
+.wpp {
+  background: radial-gradient(circle,rgba(37, 211, 102, 1) 0%, rgb(2, 168, 62) 100%);
+  padding: 8px;
+  margin: 20px;
+  border-radius: 9px;
+}
+
+.face {
+  background: radial-gradient(circle,rgba(8, 102, 255, 1) 0%, rgba(0, 169, 255, 1) 100%);
+  padding: 8px;
+  margin: 20px;
+  border-radius: 9px;
+}
+
+.tt {
+  background: radial-gradient(circle,rgba(28, 29, 29, 1) 0%, rgba(109, 110, 110, 1) 100%);
+  padding: 8px;
+  margin: 20px;
+  border-radius: 9px;
+}
+
+.botões img {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom:-35px;
+  margin-left: 115px;
+  max-width: 7%;
 }
