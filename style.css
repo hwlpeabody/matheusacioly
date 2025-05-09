@@ -40,37 +40,72 @@ a {
 }
 
 .insta {
-  background: linear-gradient(90deg,rgba(120, 14, 245, 1) 0%, rgba(247, 0, 171, 1) 50%, rgba(240, 162, 36, 1) 97%);
+  background: linear-gradient(
+    90deg,
+    rgba(120, 14, 245, 1) 0%,
+    rgba(247, 0, 171, 1) 50%,
+    rgba(240, 162, 36, 1) 97%
+  );
   padding: 8px;
   margin: 20px;
   border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wpp {
-  background: radial-gradient(circle,rgba(37, 211, 102, 1) 0%, rgb(2, 168, 62) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(37, 211, 102, 1) 0%,
+    rgb(2, 168, 62) 100%
+  );
   padding: 8px;
   margin: 20px;
   border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .face {
-  background: radial-gradient(circle,rgba(8, 102, 255, 1) 0%, rgba(0, 169, 255, 1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(8, 102, 255, 1) 0%,
+    rgba(0, 169, 255, 1) 100%
+  );
   padding: 8px;
   margin: 20px;
   border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tt {
-  background: radial-gradient(circle,rgba(28, 29, 29, 1) 0%, rgba(109, 110, 110, 1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(28, 29, 29, 1) 0%,
+    rgba(109, 110, 110, 1) 100%
+  );
   padding: 8px;
   margin: 20px;
   border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.botões img {
+/* .botões img {
   display: flex;
   margin-top: 10px;
-  margin-bottom:-35px;
+  margin-bottom: -35px;
   margin-left: 115px;
   max-width: 7%;
+} */
+
+.icon {
+  max-width: 7%;
+  display: flex;
+  margin-right: 4px;
 }
